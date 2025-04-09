@@ -1,0 +1,86 @@
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #7a7a7a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-primary {
+    background-color: #00ff80;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table-actions {
+    white-space: nowrap;
+}
+
+.statistics {
+    margin-top: 40px;
+}
+
+.statistics p {
+    margin-bottom: 8px;
+}
